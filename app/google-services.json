@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "769018333789",
+    "firebase_url": "https://first-becca.firebaseio.com",
+    "project_id": "first-becca",
+    "storage_bucket": "first-becca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769018333789:android:01a46b1f1a8e6d58",
+        "android_client_info": {
+          "package_name": "rn97.first"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769018333789-pb021bife5sjqqp9cjt0kt58g4ccv8kj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZK_RbnyrC8Oa1RPYm2gIdbuc8ywHJTEo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

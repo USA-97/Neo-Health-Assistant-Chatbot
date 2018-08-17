@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e8f4f8"
+    android:weightSum="1">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="6"
+        android:layout_weight="0.01">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnSpan="4"
+            android:hint="Enter Message"
+            android:id="@+id/Message"
+            />
+        <Button
+            android:text="SEND"
+            android:onClick="sendButtonOnClick"
+            android:id="@+id/sendButton"
+            android:layout_row="0"
+            android:background="#88ff88"
+            android:layout_columnSpan="1"
+            />
+        <Button
+            android:text="SPEAK"
+            android:onClick="listenButtonOnClick"
+            android:id="@+id/listenButton"
+            android:layout_row="0"
+            android:background="#88ff88"
+            android:layout_columnSpan="1"
+            />
+    </GridLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/textBox">
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/queryTextView"
+                android:background="#03c4eb"
+                android:layout_gravity="left"/>
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/resultTextView"
+                android:layout_gravity="right"
+                android:background="#03eb9e" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

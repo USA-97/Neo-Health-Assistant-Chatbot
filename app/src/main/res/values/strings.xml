@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">First</string>
+    <string name="sampleQues">How often do you sleep well?</string>
+    <string name="option1">Rarely or None of the time</string>
+    <string name="option2">Some or little of the time</string>
+    <string name="option3">Occasionally or a moderate amount of time</string>
+    <string name="option4">Most or all of the time</string>
+</resources>
