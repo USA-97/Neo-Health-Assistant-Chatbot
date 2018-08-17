@@ -48,7 +48,7 @@ public class ApiAiTask extends AppCompatActivity implements AIListener{
             int SCORE = Integer.parseInt(intent.getStringExtra("SCORE"));
             String query = Integer.toString(SCORE);
             //queryTextView.setText(query);
-            final AIConfiguration config = new AIConfiguration("3e74a84ecb864dd88edee1e7fa973d80",
+            final AIConfiguration config = new AIConfiguration("key",
                     AIConfiguration.SupportedLanguages.English,
                     AIConfiguration.RecognitionEngine.System);
             aiService = AIService.getService(this, config);
