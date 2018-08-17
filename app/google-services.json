@@ -1,9 +1,9 @@
 {
   "project_info": {
-    "project_number": "769018333789",
-    "firebase_url": "https://first-becca.firebaseio.com",
-    "project_id": "first-becca",
-    "storage_bucket": "first-becca.appspot.com"
+    "project_number": ",
+    "firebase_url": "",
+    "project_id": "",
+    "storage_bucket": ""
   },
   "client": [
     {
@@ -21,7 +21,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCZK_RbnyrC8Oa1RPYm2gIdbuc8ywHJTEo"
+          "current_key": "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
         }
       ],
       "services": {
