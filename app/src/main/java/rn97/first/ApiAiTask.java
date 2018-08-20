@@ -147,7 +147,7 @@ public class ApiAiTask extends AppCompatActivity implements AIListener{
         //Toast.makeText(ApiAiTask.this,"Q = "+query,Toast.LENGTH_LONG).show();
         //queryTextView.setText(query);
 
-        final AIConfiguration config = new AIConfiguration("3e74a84ecb864dd88edee1e7fa973d80",
+        final AIConfiguration config = new AIConfiguration("key",
                 AIConfiguration.SupportedLanguages.English,
                 AIConfiguration.RecognitionEngine.System);
         aiService = AIService.getService(this, config);
